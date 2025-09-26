@@ -1,18 +1,18 @@
-git config --global user.email ""
-git config --global user.name ""
+git config --global user.email ""  
+git config --global user.name ""  
 
-cd path
-git init
+cd path  
+git init  
 
-git remote add origin https://github.com/moxuemeivip/lulu-geek-AI-BA-2025.git
+git remote add origin https://github.com/moxuemeivip/lulu-geek-AI-BA-2025.git  
 
-git pull origin Master
+git pull origin Master  
 
-该路径下所有文件
-git add .
+该路径下所有文件  
+git add .  
+ 
+git commit -m "Initial commit with cases"  
 
-git commit -m "Initial commit with cases"
+git branch -M Master  
 
-git branch -M Master
-
-git push -u origin Master
+git push -u origin Master  
